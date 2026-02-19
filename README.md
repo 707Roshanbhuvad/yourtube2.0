@@ -224,7 +224,7 @@ Contributions are welcome!
 
 ## 👩‍💻 Author
 
-**Snehal Bolke**
+**Roshan Bhuvad**
 GitHub: https://github.com/snehalbolke13
 
 ---
