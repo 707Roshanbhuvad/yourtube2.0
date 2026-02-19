@@ -189,11 +189,10 @@ The project can be deployed on:
 
 **TASK 1:Comment Section Enhancements**
 
-https://github.com/user-attachments/assets/3209013b-2f9d-4f05-a539-a574b18a5cfa
 
 **TASK 2 :Custom Video Player Gestures**
 
-https://github.com/user-attachments/assets/4157dc1b-e876-4613-8808-77a5bba402dc
+https://github.com/user-attachments/assets/b786f6b9-ffd9-4aa8-a803-68f9255c1472
 
 **TASK 3:VoIP Video Calling Feature**
 
