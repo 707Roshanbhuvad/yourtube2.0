@@ -4,7 +4,6 @@ import http from "http";
 import fetch from "node-fetch";
 import { Server } from "socket.io";
 
-
 const app = express();
 app.use(cors());
 app.use(express.json());
@@ -13,7 +12,6 @@ const server = http.createServer(app);
 const io = new Server(server, {
   cors: { origin: "*" },
 });
-
 
 const videos = [
   {
@@ -24,7 +22,7 @@ const videos = [
     channel: "Discovery World",
     views: 55000,
     videoUrl:
-      "https://media.w3.org/2010/05/bunny/trailer.mp4",
+      "https://www.w3schools.com/html/mov_bbb.mp4",
   },
   {
     _id: "2",
@@ -34,7 +32,7 @@ const videos = [
     channel: "Code Master",
     views: 210000,
     videoUrl:
-      "https://media.w3.org/2010/05/sintel/trailer.mp4",
+      "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
   },
   {
     _id: "3",
@@ -44,7 +42,7 @@ const videos = [
     channel: "Tech Vision",
     views: 99000,
     videoUrl:
-      "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+      "https://media.w3.org/2010/05/sintel/trailer.mp4",
   },
   {
     _id: "4",
@@ -54,40 +52,77 @@ const videos = [
     channel: "Food Explorer",
     views: 87000,
     videoUrl:
-      "https://media.w3.org/2010/05/video/movie_300.mp4",
+      "https://media.w3.org/2010/05/bunny/trailer.mp4",
   },
-
-   {
+  {
     _id: "5",
     videotitle: "Amazing Nature Documentary",
-    thumbnail: "https://i.ytimg.com/vi/6lt2JfJdGSY/maxresdefault.jpg",
+    thumbnail:
+      "https://i.ytimg.com/vi/6lt2JfJdGSY/maxresdefault.jpg",
     channel: "Nature Channel",
     views: 45000,
-    videoUrl: "https://www.w3schools.com/html/mov_bbb.mp4",
+    videoUrl:
+      "https://www.w3schools.com/html/movie.mp4",
   },
   {
     _id: "6",
     videotitle: "React Full Course for Beginners",
-    thumbnail: "https://i.ytimg.com/vi/bMknfKXIFA8/maxresdefault.jpg",
+    thumbnail:
+      "https://i.ytimg.com/vi/bMknfKXIFA8/maxresdefault.jpg",
     channel: "Code Academy",
     views: 120000,
-    videoUrl: "https://www.w3schools.com/html/movie.mp4",
+    videoUrl:
+      "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm",
   },
   {
     _id: "7",
     videotitle: "Top Tech Gadgets 2025",
-    thumbnail: "https://i.ytimg.com/vi/GV3HUDMQ-F8/maxresdefault.jpg",
+    thumbnail:
+      "https://i.ytimg.com/vi/GV3HUDMQ-F8/maxresdefault.jpg",
     channel: "Tech World",
     views: 78000,
-    videoUrl: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+    videoUrl:
+      "https://media.w3.org/2010/05/video/movie_300.mp4",
   },
   {
     _id: "8",
     videotitle: "Street Food Around the World",
-    thumbnail: "https://i.ytimg.com/vi/5qap5aO4i9A/maxresdefault.jpg",
+    thumbnail:
+      "https://i.ytimg.com/vi/5qap5aO4i9A/maxresdefault.jpg",
     channel: "Food Vlogs",
     views: 99000,
-    videoUrl: "https://media.w3.org/2010/05/sintel/trailer.mp4",
+    videoUrl:
+      "https://media.w3.org/2010/05/sintel/trailer.mp4",
+  },
+  {
+    _id: "9",
+    videotitle: "Mountain Hiking Adventure",
+    thumbnail:
+      "https://images.unsplash.com/photo-1501785888041-af3ef285b470",
+    channel: "Adventure Life",
+    views: 67000,
+    videoUrl:
+      "https://media.w3.org/2010/05/bunny/movie.mp4",
+  },
+  {
+    _id: "10",
+    videotitle: "Node.js Backend Masterclass",
+    thumbnail:
+      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31",
+    channel: "Backend Pro",
+    views: 158000,
+    videoUrl:
+      "https://media.w3.org/2010/05/sintel/movie.mp4",
+  },
+  {
+    _id: "11",
+    videotitle: "Space Exploration Documentary",
+    thumbnail:
+      "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa",
+    channel: "Space Channel",
+    views: 132000,
+    videoUrl:
+      "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
   },
 ];
 
@@ -98,7 +133,6 @@ app.get("/video/getall", (req, res) => {
 app.get("/", (req, res) => {
   res.send("🚀 YouTube Backend API is running");
 });
-
 
 let comments = [];
 
@@ -171,7 +205,6 @@ app.post("/comment/translate", async (req, res) => {
 
   res.json({ translated: d[0][0][0] });
 });
-
 
 io.on("connection", (socket) => {
   console.log("🟢 User connected:", socket.id);
