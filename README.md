@@ -16,7 +16,7 @@ The project is built using modern frontend and backend technologies to simulate 
 
 Frontend is deployed on Vercel:
 
-👉 https://youtube-project-fmbb.vercel.app/
+👉 https://yourtube2-0-flame.vercel.app/
 
 ---
 
@@ -29,7 +29,7 @@ Since the backend server is not deployed, you must run it locally to load videos
 1️⃣ Open the live project link in your browser:
 
 ```
-https://youtube-project-fmbb.vercel.app/
+https://yourtube2-0-flame.vercel.app/
 ```
 
 2️⃣ Open the project in **VS Code**
@@ -225,7 +225,7 @@ Contributions are welcome!
 ## 👩‍💻 Author
 
 **Roshan Bhuvad**
-GitHub: https://github.com/snehalbolke13
+GitHub: github.com/707Roshanbhuvad/yourtube2.0
 
 ---
 
