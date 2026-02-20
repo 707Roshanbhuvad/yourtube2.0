@@ -120,7 +120,7 @@ YoutubeProject/
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/snehalbolke13/YoutubeProject.git
+git clone https://github.com/707Roshanbhuvad/yourtube2.0.git
 cd YoutubeProject
 ```
 
@@ -182,21 +182,21 @@ The project can be deployed on:
 ## 📸 Screenshots
 
 **Screenshot 1: Home Page**
-![image alt](https://github.com/snehalbolke13/YoutubeProject/blob/cf29193b9896a7be13d2ff82e1ba209abb5349a0/photo.png)
+![image alt]https://github.com/user-attachments/assets/d3e042db-26f4-4c65-918e-7dbca1867d0b
 
 **Screenshot 2: video Page**
-![image alt](https://github.com/snehalbolke13/YoutubeProject/blob/41b1c66918c0e8d2edcb3ec1fffc072c4b74d688/youtube_video.png)
+![image alt]https://github.com/user-attachments/assets/a3e05387-f2bc-464f-81b3-ca44b6fc13db
 
 **TASK 1:Comment Section Enhancements**
-
+https://github.com/user-attachments/assets/2cf0e82b-18ac-4081-ab0c-f2171ed1e1dd
 
 **TASK 2 :Custom Video Player Gestures**
 
-https://github.com/user-attachments/assets/b786f6b9-ffd9-4aa8-a803-68f9255c1472
+https://github.com/user-attachments/assets/841afb80-162e-4be9-8043-f90a0d44903a
 
 **TASK 3:VoIP Video Calling Feature**
 
-https://github.com/user-attachments/assets/978c5e76-5878-4d28-88ab-8f2fe2012e32
+https://github.com/user-attachments/assets/7135cdff-495a-4704-80ac-c63d8bb86a7e
 
 ## 📚 Learning Purpose
 
